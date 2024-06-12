@@ -1,4 +1,4 @@
-i	<div class="p-sidebar">
+<div class="p-sidebar">
 					<div class="widget">
 						<h2><i class="fa fa-folder-open" aria-hidden="true"></i> Category</h2>
 						<ul>
@@ -17,6 +17,4 @@ i	<div class="p-sidebar">
 							<li><a href="#">2017年9月</a></li>
 						</ul>
 					</div>
-				</div>
-			</div>
-		</div>
+</div>
