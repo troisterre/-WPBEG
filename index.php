@@ -41,4 +41,6 @@
 					<li class="nextpostslink"><a rel="next" href="#">Next</a></li>
 				</ul>
 			<?php get_sidebar(); ?>
+		</div>
+	</div>
 	<?php get_footer(); ?>

@@ -18,5 +18,4 @@ i	<div class="p-sidebar">
 						</ul>
 					</div>
 				</div>
-			</div>
-		</div>
+		
