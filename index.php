@@ -3,7 +3,7 @@
 			<div class="c-grid">
 				<div class="p-contents">
 					<?php 
-					if(have_post()): 
+					if (have_posts()): 
 					  while (have_posts()):
 						 the_post(); ?>
 					<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
