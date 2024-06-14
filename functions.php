@@ -2,6 +2,7 @@
 		 //テーマサポ
 		 add_theme_support('menus');
 		 add_theme_support('title_tag');
+		 add_theme_support('post-thumbnails');
 
 		 //タイトル出力
 		 function wpbeg_title($title) {
@@ -23,5 +24,6 @@
         wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0' );
       }
       add_action('wp_enqueue_scripts','wpbeg_script');
+      
 			?>
       
