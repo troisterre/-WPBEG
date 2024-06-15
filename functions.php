@@ -62,6 +62,5 @@
 		}
 		add_action('widgets_init','wpbeg_widgets_init');
 
-		 
 			?>
       
