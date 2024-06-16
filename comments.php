@@ -7,7 +7,7 @@
 									 <?php endif; ?>
                    <?php 
                      $args = array(
-                      'title' => 'Leave a Reply',
+                      'title_reply' => 'Leave a Reply',
                       'label_submit' => 'POST COMMENT',
                      );
                      comment_form($args);

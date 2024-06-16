@@ -3,6 +3,7 @@
 		 add_theme_support('menus');
 		 add_theme_support('title_tag');
 		 add_theme_support('post-thumbnails');
+		 add_theme_support('automatic-feed-links');
 
 		 //タイトル出力
 		 function wpbeg_title($title) {
@@ -60,7 +61,6 @@
 					)
 					);
 		}
-		add_action('widgets_init','wpbeg_widgets_init');
-
+     		add_action('widgets_init','wpbeg_widgets_init');
 			?>
       
