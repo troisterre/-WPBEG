@@ -9,10 +9,12 @@
 		<meta name="description" content="WordPress theme development static data for beginners">
 		<meta name="keywords" content="WordPress, Theme, development">
 		
-		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/common/icon/favicon.ico">
+		<link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/images/common/ico/favicon.ico">
+		<?php if(is_singular()) wp_enqueue_script("comment-reply"); ?>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+	<?php wp_body_open(); ?>
 		<header class="header">
 			<h1 class="header__ttl"><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?><span class="header__ttl__sub">static</span></a></h1>
 			<p class="header__description"><?php bloginfo('description'); ?></p>

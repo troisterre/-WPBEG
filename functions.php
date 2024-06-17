@@ -1,6 +1,6 @@
 <?php 
 		 //テーマサポ
-		 add_theme_support('menus');
+	   register_nav_menus();
 		 add_theme_support('title_tag');
 		 add_theme_support('post-thumbnails');
 		 add_theme_support('automatic-feed-links');
@@ -62,5 +62,9 @@
 					);
 		}
      		add_action('widgets_init','wpbeg_widgets_init');
+
+				if(!isset($content_width)) {
+					$content_width = 960;
+				}
 			?>
       
